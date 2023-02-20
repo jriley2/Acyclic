@@ -1,0 +1,54 @@
+**~
+**.orig
+**.o
+**.d
+**.a
+**.cpre
+**.mpeg
+**.log
+**.ex
+**.cubin
+**.out
+**.dummy
+
+# Docs
+**.aux
+**.bbl
+**.blg
+**.dvi
+**.ps
+**.eps
+**.pdf
+**.log
+
+#traces
+**profile.*.bin
+**.trace
+**.paje
+**.html
+**WQ_history
+
+# Ignore files starting with # and .#
+syntax: regexp
+**\\#*
+
+# Exclude autoconf
+autom4te.cache
+config.status
+Common/mk/Make.defs
+
+# Exclude VS code
+**.vscode
+
+# Exclude doxygen output
+syntax: regexp
+**doc/html
+**doc/latex
+
+# Exclude binaries in test
+**/test/**
+!**/test/*.*
+!**/test/GNUmakefile
+
+# Exclude build directory
+build/
