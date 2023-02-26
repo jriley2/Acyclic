@@ -2,7 +2,11 @@
 
 ## Description
 
+An acyclic task scheduler written in C++17.
+
 ##  Getting started with the Acyclic
+
+A sample app is in apps/demo.
 
 ## Building
 
@@ -10,9 +14,9 @@
 
 * [Git](https://git-scm.com/)
 * [CMake](https://cmake.org/) -- minimum version 3.7
-* c++ compiler with c++14
+* c++ compiler with c++17
 
-On Debian:
+On Debian/Ubuntu:
 
       apt install git cmake build-essential
 
@@ -45,12 +49,6 @@ To generate documentation:
 ### Package
       cd <build dir>
       cpack
-
-## Build your own application
-
-1. Build Acyclic
-2. Include headers when compiling your application
-3. Link library
 
 ## Disclaimer/Copyright
 
